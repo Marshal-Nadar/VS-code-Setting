@@ -28,7 +28,7 @@
   "prettier.semi": true,
   "prettier.singleQuote": false,
 
-  // // BETTER COMMENT SETTING
+  // // BETTER COMMENT SETTINGS
   "better-comments.tags": [
     {
       "tag": "+",
