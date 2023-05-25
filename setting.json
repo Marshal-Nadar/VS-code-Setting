@@ -1,0 +1,95 @@
+{
+  // // TEXTURE SETTING
+  "editor.fontSize": 17,
+  "files.autoSave": "off",
+  "editor.tabSize": 1,
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "expand",
+  "terminal.integrated.fontSize": 14,
+
+  // // JAVASCRIPT SETTING
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // // PRTTIER SETTING
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+
+  // // BETTER COMMENT SETTING
+  "better-comments.tags": [
+    {
+      "tag": "+",
+      "color": "#94fc03",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "-",
+      "color": "#fc0303",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "=",
+      "color": "#fcf803",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#03fc8c",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#fcbe03",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  // "workbench.colorTheme": "Yi Dark",
+
+  // // THEMES SETTINGS
+  "terminal.integrated.fontFamily": "monospace",
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.accessibilitySupport": "on",
+  "window.zoomLevel": -1,
+
+  // // POWER MODE
+  "powermode.enabled": true,
+  "powermode.presets": "flames",
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.shake.enabled": false,
+  "powermode.explosions.maxExplosions": 1
+}
